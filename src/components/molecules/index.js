@@ -7,3 +7,5 @@ export IconLink from './IconLink'
 export Post from './Post'
 export PrimaryNavigation from './PrimaryNavigation'
 export Table from './Table'
+
+export HeaderLogo from './HeaderLogo'
