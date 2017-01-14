@@ -10,7 +10,7 @@ const Select = styled.select`
   margin: 0;
   box-sizing: border-box;
   font-size: 1.125rem;
-  border: 1px solid ${(props) => props.invalid ? colors.danger[2] : colors.grayscale[3]};
+  border: 1px solid ${(props) => props.invalid ? colors.alert[0] : colors.grayscale[3]};
   border-radius: 2px;
   height: 2.5rem;
   background-color: #fff;

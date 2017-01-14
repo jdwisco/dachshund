@@ -10,7 +10,7 @@ const styles = ({ invalid, type }) => css`
   margin: 0;
   box-sizing: border-box;
   font-size: 1.123rem;
-  border: 1px solid ${invalid ? colors.danger[2] : colors.grayscale[3]};
+  border: 1px solid ${invalid ? colors.alert[0] : colors.grayscale[3]};
   border-radius: 2px;
   height: ${type === 'textarea' ? 'auto' : '2.5rem'};
 

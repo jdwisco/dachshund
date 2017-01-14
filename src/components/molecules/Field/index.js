@@ -6,7 +6,7 @@ import { Label, Input } from 'components'
 
 const Error = styled.div`
   font-family: ${fonts.primary};
-  color: ${colors.danger[1]};
+  color: ${colors.alert[1]};
   margin: 0.5rem 0 0;
 `
 

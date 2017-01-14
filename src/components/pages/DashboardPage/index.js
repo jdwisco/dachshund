@@ -1,12 +1,13 @@
 import React from 'react'
 
-import { MainPageTemplate, Header } from 'components'
+import { DashboardTemplate, Header } from 'components'
 
 const DashboardPage = () => {
   return (
-    <MainPageTemplate header={ <Header/> }>
-      <Header>{ header }</Header>
-    </MainPageTemplate>
+    <DashboardTemplate 
+      header={ <Header/> } 
+      weatherOverview={ <Weather/> } >
+    </DashboardTemplate>
   )
 }
 

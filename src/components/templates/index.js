@@ -1,2 +1,2 @@
 export GenericTemplate from './GenericTemplate'
-export MainPageTemplate from './MainPageTemplate'
+export DashboardTemplate from './DashboardTemplate'
